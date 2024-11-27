@@ -1,0 +1,10 @@
+{
+    "type": "module",
+    "name": "node-test-runner-issue",
+    "scripts": {
+        "test": "node --test --trace-uncaught --test-concurrency 1 index.test.js"
+    },
+    "devDependencies": {
+        "chai": "^5.1.2"
+    }
+}
